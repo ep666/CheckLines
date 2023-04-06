@@ -37,4 +37,4 @@ for file in glob2.glob(usrPath+"\\**\\*.cs"):
     strNumbers = lineNumbers(currentFile)
     total +=strNumbers
     
-print ("Сумма строк\t", total)
+print ("Sum of lines:\t", total)
